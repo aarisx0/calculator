@@ -49,23 +49,19 @@ button{
     margin: 8px;
     font-size: 16px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .Calculator {
-        grid-template-columns: repeat(4, 60px);
-        padding: 10px;
+        grid-template-columns: repeat(4, 52px);
     }
 
     input {
-        height: 60px;
-        width: 240px;
-        font-size: 36px;
-        padding: 15px;
+        width: 200px;
+        font-size: 30px;
     }
 
     button {
-        width: 50px;
-        height: 50px;
-        margin: 10px;
-        font-size: 14px;
+        width: 38px;
+        height: 38px;
+        font-size: 12px;
     }
 }
